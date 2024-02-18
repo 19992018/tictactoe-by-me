@@ -1,0 +1,41 @@
+#xosection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#xogrid {
+    width: 50%;
+    height: 60vh;
+    background-color: black;
+
+}
+
+#xogrid .row {
+    height: 33.3%;
+    width: 100%;
+    border: 3px solid white;
+    display: flex;
+}
+
+#xogrid .square {
+    background-color: black;
+    width: 33.3%;
+    height: 100%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#xogrid .square h1 {
+    color: white;
+}
+
+.hide-show {
+    display: none;
+}
